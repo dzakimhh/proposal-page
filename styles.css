@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('path-to-your-tulip-image.jpg'); /* Gantilah 'path-to-your-tulip-image.jpg' dengan path gambar bunga tulip Anda */
+    background-size: cover;
+    background-color: #ffc0cb; /* Warna pink */
+}
+
+#proposal-container {
+    text-align: center;
+    color: #000000; /* Warna teks hitam */
+}
+
+#responseInput {
+    padding: 8px;
+    border-radius: 15px; /* Mengubah sudut input menjadi bulat */
+    font-size: 14px; /* Menyesuaikan ukuran teks input */
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 15px; /* Mengubah sudut tombol menjadi bulat */
+    font-size: 14px; /* Menyesuaikan ukuran teks tombol */
+    background-color: #000000; /* Warna latar belakang hitam */
+    color: #ffffff; /* Warna teks putih */
+    font-weight: bold; /* Teks tebal */
+}
